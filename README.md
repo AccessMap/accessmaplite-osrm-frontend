@@ -2,6 +2,12 @@ This is the frontend served at https://map.project-osrm.org.
 
 This frontend is builds heavily ontop of [Leaflet Routing Machine](https://github.com/perliedman/leaflet-routing-machine). If you need a simple OSRM integration in your webpage, you should start from there.
 
+# AccessMap (lite) notes
+
+There have been almost no changes made, except that the demo only looks at
+localhost:5000 (where osrm-build's route daemon runs by default) and the map
+centers at Downtown Seattle by default.
+
 # Building
 
 Run this in the root folder:

@@ -19,8 +19,8 @@ var streets = L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.streets/{z}/{x
 
 module.exports = {
   defaultState: {
-    center: L.latLng(38.8995, -77.0269),
-    zoom: 13,
+    center: L.latLng(47.607886, -122.334666),
+    zoom: 16,
     waypoints: [],
     language: 'en',
     alternative: 0,
@@ -28,7 +28,7 @@ module.exports = {
   },
   services: [{
     label: 'Car (fastest)',
-    path: 'https://router.project-osrm.org/route/v1'
+    path: 'http://localhost:5000/route/v1'
   }],
   layer: [{
     'Mapbox Streets': streets,
